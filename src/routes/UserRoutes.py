@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, status, Depends
-from src.models.users import User, UserDB
+from src.models.users import User
 from src.services.UserServices import UserService
 from src.utils.security import Security
 

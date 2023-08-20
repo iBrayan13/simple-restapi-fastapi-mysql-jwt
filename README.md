@@ -128,6 +128,8 @@ You'll copy the server connection (**127.0.0.1:8000** or **localhost:8000**) in 
 
 ## Endpoints
 
+Information: **IT'S SO IMPORTANT TO SEND A BEARER TOKEN WHEN YOU USE THE ENDPOINTS OF INDEX & USER (STILL IT'S EMPTY)**
+
 If you want to know what are all the available **endpoints** run the server and copy this on the navigator: **"localhost:8000/docs"**.
 
 There you can see all the **endpoints** of the projects and which HTTP verbs you need to select for **running eachone**.
