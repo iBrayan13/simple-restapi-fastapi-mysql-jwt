@@ -77,7 +77,7 @@ MYSQL_DATABASE="simpleapi_example"
 First open the command console, then make sure you are in the root directory of the project and finally run the next command on the console:
 
 ```bash
-pip install -r requirements.txt
+py -m pip install -r requirements.txt
 ```
 
 ### Testing
@@ -107,7 +107,7 @@ Finally you can check the API with a **"API testing"** app.
 Open the command line in the root of the project and run the next command:
 
 ```bash
-uvicorn index:app --reload
+py -m uvicorn index:app --reload
 ```
 
 It's going to deploy the api on your local host (127.0.0.1).
